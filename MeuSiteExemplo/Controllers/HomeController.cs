@@ -15,14 +15,14 @@ namespace MeuSiteExemplo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Sua mudança na aparência da imagem";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Sua página de contato.";
 
             return View();
         }
